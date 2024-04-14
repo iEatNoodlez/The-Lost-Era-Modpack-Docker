@@ -8,7 +8,7 @@ RUN apt-get install -y wget unzip && \
 
 RUN mkdir /tmp/feed-the-beast && cd /tmp/feed-the-beast && \ 
 ## pull file redirected from https://www.curseforge.com/minecraft/modpacks/skyfactory-4/download/3012800/file 
- wget -c https://qpkg.app/TheLostEraModpack-1.6.2.zip -O TheLostEraModpack-1.6.4.zip && \
+ wget -c https://qpkg.app/TheLostEraModpack-1.6.4.zip -O TheLostEraModpack-1.6.4.zip && \
  unzip TheLostEraModpack-1.6.4.zip -d /tmp/lost-era && \
  chmod -R 777 /tmp/lost-era && \
  chown -R minecraft /tmp/lost-era
